@@ -6,10 +6,11 @@
   "private": true,
   "dependencies": {
     "prop-types": "^15.6.2",
+    "r-t-components": "file:..",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "r-t-components": "file:.."
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
