@@ -10,7 +10,7 @@ import { FaEnvelope, FaPhone, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const Hyperlink = styled.a`
   display: inline-flex;
-  padding-left: 0.25em;
+  padding: 0.25em;
 `;
 
 type Props = {

@@ -4,3 +4,4 @@ export { default as SocialMediaItem } from "./social-media-item";
 export { default as ClickableCard } from "./clickable-card";
 export { default as Footer } from "./footer";
 export { default as Header } from "./header";
+export { default as ResponsiveMenu } from "./responsive-menu";

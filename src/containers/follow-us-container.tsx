@@ -5,7 +5,7 @@ import * as React from 'react';
 
 import styled from 'styled-components';
 
-type Props = {
+export interface Props {
   followUsText: string,
   children: any
 }
@@ -16,7 +16,7 @@ const Outline = styled.div`
   align-items: center;
 `;
 
-const FollowUsSection = ({followUsText = "Follow Us", children}: Props) => {
+const FollowUsContainer = ({followUsText = "Follow Us", children}: Props) => {
   return (
     <Outline>
       <h3 style={{ display: 'inline-flex' }}>
@@ -27,4 +27,4 @@ const FollowUsSection = ({followUsText = "Follow Us", children}: Props) => {
   )
 }
 
-export default FollowUsSection
+export default FollowUsContainer

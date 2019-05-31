@@ -7,6 +7,7 @@ const Header = styled.div<any>`
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: ${(props: any) => props.backgroundColor};
 
   nav {
     display: flex;

@@ -7,7 +7,7 @@ type Props = {
   imageUrl?: string
 }
 
-const ClickableCard: React.FC<any> = ({ title, imageUrl, onClickEvent }: Props) => {
+const ClickableCard = ({title, imageUrl, onClickEvent}: Props) => {
   return (
     <Card style={{
       display: 'flex', flexDirection: 'column', alignItems: 'center', paddingBottom: '2em', cursor: 'pointer'
